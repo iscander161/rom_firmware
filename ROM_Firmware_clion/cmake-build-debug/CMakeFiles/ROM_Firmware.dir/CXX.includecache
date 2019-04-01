@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.cpp
+iostream
+-
+win_main.h
+C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.h
+
+C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.h
+

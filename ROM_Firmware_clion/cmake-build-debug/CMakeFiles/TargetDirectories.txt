@@ -1,0 +1,3 @@
+C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/cmake-build-debug/CMakeFiles/ROM_Firmware.dir
+C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
