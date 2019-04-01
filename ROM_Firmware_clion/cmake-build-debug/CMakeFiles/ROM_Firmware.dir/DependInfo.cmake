@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/main.cpp" "C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/cmake-build-debug/CMakeFiles/ROM_Firmware.dir/main.cpp.obj"
-  "C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.cpp" "C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/cmake-build-debug/CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.obj"
+  "C:/GIT/rom_firmware/ROM_Firmware_clion/main.cpp" "C:/GIT/rom_firmware/ROM_Firmware_clion/cmake-build-debug/CMakeFiles/ROM_Firmware.dir/main.cpp.obj"
+  "C:/GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.cpp" "C:/GIT/rom_firmware/ROM_Firmware_clion/cmake-build-debug/CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

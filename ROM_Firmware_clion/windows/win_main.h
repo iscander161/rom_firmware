@@ -7,6 +7,8 @@
 
 typedef char byte_t;
 
-byte_t rom_CreateWindow(void);
+LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
+
+int rom_CreateWindow(HINSTANCE, int);
 
 #endif //ROM_FIRMWARE_WIN_MAIN_H

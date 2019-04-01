@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "B:\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "B:\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\NEW_GIT\rom_firmware\ROM_Firmware_clion
+CMAKE_SOURCE_DIR = C:\GIT\rom_firmware\ROM_Firmware_clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug
+CMAKE_BINARY_DIR = C:\GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ROM_Firmware.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/ROM_Firmware.dir/flags.make
 
 CMakeFiles/ROM_Firmware.dir/main.cpp.obj: CMakeFiles/ROM_Firmware.dir/flags.make
 CMakeFiles/ROM_Firmware.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ROM_Firmware.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ROM_Firmware.dir\main.cpp.obj -c C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ROM_Firmware.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ROM_Firmware.dir\main.cpp.obj -c C:\GIT\rom_firmware\ROM_Firmware_clion\main.cpp
 
 CMakeFiles/ROM_Firmware.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ROM_Firmware.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\main.cpp > CMakeFiles\ROM_Firmware.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GIT\rom_firmware\ROM_Firmware_clion\main.cpp > CMakeFiles\ROM_Firmware.dir\main.cpp.i
 
 CMakeFiles/ROM_Firmware.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ROM_Firmware.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\main.cpp -o CMakeFiles\ROM_Firmware.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\GIT\rom_firmware\ROM_Firmware_clion\main.cpp -o CMakeFiles\ROM_Firmware.dir\main.cpp.s
 
 CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.obj: CMakeFiles/ROM_Firmware.dir/flags.make
 CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.obj: ../windows/win_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ROM_Firmware.dir\windows\win_main.cpp.obj -c C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\windows\win_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ROM_Firmware.dir\windows\win_main.cpp.obj -c C:\GIT\rom_firmware\ROM_Firmware_clion\windows\win_main.cpp
 
 CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\windows\win_main.cpp > CMakeFiles\ROM_Firmware.dir\windows\win_main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GIT\rom_firmware\ROM_Firmware_clion\windows\win_main.cpp > CMakeFiles\ROM_Firmware.dir\windows\win_main.cpp.i
 
 CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ROM_Firmware.dir/windows/win_main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\windows\win_main.cpp -o CMakeFiles\ROM_Firmware.dir\windows\win_main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\GIT\rom_firmware\ROM_Firmware_clion\windows\win_main.cpp -o CMakeFiles\ROM_Firmware.dir\windows\win_main.cpp.s
 
 # Object files for target ROM_Firmware
 ROM_Firmware_OBJECTS = \
@@ -96,7 +96,7 @@ ROM_Firmware.exe: CMakeFiles/ROM_Firmware.dir/build.make
 ROM_Firmware.exe: CMakeFiles/ROM_Firmware.dir/linklibs.rsp
 ROM_Firmware.exe: CMakeFiles/ROM_Firmware.dir/objects1.rsp
 ROM_Firmware.exe: CMakeFiles/ROM_Firmware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ROM_Firmware.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ROM_Firmware.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ROM_Firmware.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/ROM_Firmware.dir/clean:
 .PHONY : CMakeFiles/ROM_Firmware.dir/clean
 
 CMakeFiles/ROM_Firmware.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\NEW_GIT\rom_firmware\ROM_Firmware_clion C:\NEW_GIT\rom_firmware\ROM_Firmware_clion C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug C:\NEW_GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles\ROM_Firmware.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\GIT\rom_firmware\ROM_Firmware_clion C:\GIT\rom_firmware\ROM_Firmware_clion C:\GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug C:\GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug C:\GIT\rom_firmware\ROM_Firmware_clion\cmake-build-debug\CMakeFiles\ROM_Firmware.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROM_Firmware.dir/depend
 

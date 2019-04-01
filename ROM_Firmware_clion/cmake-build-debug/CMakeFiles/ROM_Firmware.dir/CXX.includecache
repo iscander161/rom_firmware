@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.cpp
+C:/GIT/rom_firmware/ROM_Firmware_clion/WindowsCoordinates.h
+
+C:/GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.cpp
 iostream
 -
+windows.h
+-
 win_main.h
-C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.h
+C:/GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.h
+../WindowsCoordinates.h
+C:/GIT/rom_firmware/ROM_Firmware_clion/WindowsCoordinates.h
 
-C:/NEW_GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.h
+C:/GIT/rom_firmware/ROM_Firmware_clion/windows/win_main.h
 
